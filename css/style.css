@@ -1,0 +1,42 @@
+@import url(./font.css);
+@import url(./partial/variables.css);
+/* styling nav brain */
+
+.header-area .main-menu .navbar-brand {
+  color: peru;
+  padding: 1rem 2rem;
+}
+
+.header-area .main-menu .nav-item .nav-link {
+  padding: 1rem 10rem;
+  font-family: var(--roboto);
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 1rem;
+  color: var(--title-color);
+}
+.header-area .main-menu .navbar-nav.active a {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.header-area .main-menu .navbar-nav.a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.h3-1-text {
+  padding-top: 35%;
+  font-weight: 500;
+}
+.h3-1-text::after {
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: black;
+  display: inline-block;
+  margin-left: 5%;
+  transform: translateY(-10px);
+}
