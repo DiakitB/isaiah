@@ -42,6 +42,8 @@
 }
 .h1 {
   font-size: 5rem;
+  font: normal bold;
+  font-family: var(--roboto);
 }
 
 .h4-text {
@@ -51,4 +53,15 @@
 .imageBox {
   padding: 7rem 0;
   width: 90rem;
+}
+.h2-text > span {
+  display: block;
+  font: normal bold 49px/60px var(--roboto);
+  text-transform: uppercase;
+  letter-spacing: 21px;
+}
+.par {
+  padding: 20px 0;
+  color: var(--title-color);
+  font: normal 500 16px/25px var(--roboto);
 }
