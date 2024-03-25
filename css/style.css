@@ -40,3 +40,15 @@
   margin-left: 5%;
   transform: translateY(-10px);
 }
+.h1 {
+  font-size: 5rem;
+}
+
+.h4-text {
+  font-size: 1.5rem;
+}
+
+.imageBox {
+  padding: 7rem 0;
+  width: 90rem;
+}
