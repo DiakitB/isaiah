@@ -96,3 +96,21 @@
 .button {
   animation: glowing 1300ms infinite;
 }
+.navbar-nav {
+  text-transform: uppercase;
+  color: var(--roboto);
+  font-weight: 500;
+}
+.navbar-nav .active a {
+  background: pink;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.navbar-nav a:hover {
+  background: var(--gradient-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgb(18, 202, 89);
+  background-clip: text;
+}
